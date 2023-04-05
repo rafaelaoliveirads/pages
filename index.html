@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Faça seu cadastro </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Faça seu cadastro</h1>
+      <form>
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="data-nascimento">Data de Nascimento</label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+        <label for="pais">País</label>
+        <select id="pais" name="pais" required>
+          <option value="">Selecione o país</option>
+          <option value="brasil">Brasil</option>
+          <option value="alemanha">Alemanha</option>
+          <option value="argentina">Argentina</option>
+          <option value="chile">Chile</option>
+          <option value="estados-unidos">Estados Unidos</option>
+          <option value="espanha">Espanha</option>
+          <option value="frança">França</option>
+          <option value="italia">Italia</option>
+          <option value="mexico">Mexico</option>
+          <option value="portugal">Portugal</option>
+          <option value="porto rico">Porto Rico</option>
+          <option value="tailandia">Tailandia</option>
+          <option value="uruguai">Uruguai</option>
+        </select>
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+        
+        <label for="confirme sua senha">Confirme sua Senha</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <footer>
+            <p>Aceito os <a href="#">termos e condições</a> e concordo com as <a href="#">políticas de privacidade</a> da Mais1Code.</p>
+        </footer>
+
+        <button type="submit">Cadastrar</button>
+
+        <footer>
+            <p> Já tem uma conta na Mais1Code? <a href="#">Entre agora</a>
+        </footer>
+
+      </form>
+    </div>
+    
+  </body>
+</html>
